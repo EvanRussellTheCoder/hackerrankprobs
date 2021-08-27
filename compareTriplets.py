@@ -42,6 +42,5 @@ compareTriplets([1, 2, 3],[1, 2, 1])
 compareTriplets(["a,", "b", "c"],["d", "e", "f"])
 #gets IndexError
 compareTriplets([1, 2, 3][4, 5]) 
-        
-
-    
+#gets [0, 3], completely ignores anything else in the array other than the first 3 variables
+compareTriplets([1, 2, 3, 2, 1],[4, 5, 6, 7]) 
