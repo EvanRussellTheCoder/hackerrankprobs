@@ -1,4 +1,4 @@
-#take in 2d array, and input what a variable 
+#take in 2d array, and input what a variable
 def diagonalDifference(arr):
     try:
         left = right = 0
